@@ -1,0 +1,94 @@
+
+
+body{
+    background-color: #1F8CE6;
+}
+
+.login{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-box{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+}
+
+#icon{
+    color: var(--blue);
+}
+
+.welcome-header{
+    margin: 20px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.welcome-header__title{
+    margin: 13px;
+    color: var(--blue);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.welcome-header__text{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    font-weight: 400;
+    width: 72%;
+    margin-bottom: 20px;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+
+.login-form * {
+    padding:5px 0px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    margin-bottom: 25px;
+
+}
+.login-form__username,
+.login-form__password{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    transition: border-color 0.3s ease-in-out;
+}
+
+.login-form *::placeholder{
+    color:rgba(0, 0, 0, 0.4);
+}
+
+.login-form *:focus{
+    border-color: var(--blue);
+}
+
+.login-form__button{
+    background-color: var(--blue);
+    color:white;
+    border-radius: 5px;
+    padding: 13px;
+}
+
+.login-form__button:nth-child(3){
+    cursor: pointer;
+}
+
+.login-form__button:nth-child(4){
+    margin-bottom: 0px;
+
+}
+
+.login-form__a{
+    text-align: center;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 13px;
+}

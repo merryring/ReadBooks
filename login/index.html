@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/login/css/style_login.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,19 +22,22 @@
             <i class="fas fa-bolt"></i>
         </div>
     </div>
-    
+<div class=login>
+    <div class="login-box">
     <header class="welcome-header">
-        <i id="icon" class="fas fa-book-open fa-5x"></i>
+        <i id="icon" class="fas fa-book-open fa-4x"></i>
         <h1 class="welcome-header__title">Welcome to Read Books</h1>
         <p class="welcome-header__text"> If you have a Read Books Account, log in with your email or phone number</p>
     </header>
-    <form class="login-form" action="friends.html" method="get">
+    <form  action="/friends/friends.html" method="get" class="login-form">
         <input class="login-form__username" type="text" placeholder="Email or Phone number"/>
         <input class="login-form__password" type="password" placeholder="Password"/>
-        <input class="login-form__button" type="button" value="Log In"/>
-        <input class="login-form__button" type="button" value="Sign Up"/>
-        <a href="#">Find Kokoa Account or Password</a>
+        <input class="login-form__button" type="submit" value="Log In"/>
+        <input class="login-form__button" type="submit" value="Sign Up"/>
+        <a href="#" class="login-form__a">Find Read Books Account or Password</a>
     </form>
+    </div>
+</div>
 </body>
 <script src="https://kit.fontawesome.com/8b1fe48597.js" crossorigin="anonymous"></script>
 </html>

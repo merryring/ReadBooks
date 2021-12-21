@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     padding: 5px 3px;
-    background-color: var(--blue);
-    color: white;
+    background-color: white;
+    color: var(--blue);
 }
 
 .status-bar__column{
