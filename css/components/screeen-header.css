@@ -1,10 +1,10 @@
 .screen-header{
     display: flex;
     justify-content: space-between;
-    padding: var(--horizontal-space);
-    padding-top:15px;
+    padding: 15px 25px 0px 25px;
     align-items: center;
     color:var(--blue);
+    margin-top: 25px;
 }
 .screen__title{
     font-size: 28px;
@@ -13,4 +13,8 @@
 
 .screen__icons span{
     margin-left: 25px;
+}
+
+.screen__icons{
+    position: relative;
 }

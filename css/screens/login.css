@@ -1,9 +1,5 @@
 
 
-body{
-    background-color: #1F8CE6;
-}
-
 .login{
     height: 700px;
     display: flex;
@@ -11,13 +7,13 @@ body{
     align-items: center;
 }
 .login-box{
-    background-color: white;
+    background-color: var(--blue);
     width: 400px;
     height: 500px;
 }
 
 #icon{
-    color: var(--blue);
+    color: white;
 }
 
 .welcome-header{
@@ -29,13 +25,13 @@ body{
 }
 .welcome-header__title{
     margin: 13px;
-    color: var(--blue);
+    color: white;
     font-size: 25px;
     font-weight: 600;
 }
 
 .welcome-header__text{
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.5);
     font-size: 15px;
     font-weight: 400;
     width: 72%;
@@ -58,21 +54,23 @@ body{
 }
 .login-form__username,
 .login-form__password{
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: var(--bottom-border);
     transition: border-color 0.3s ease-in-out;
+    background-color: var(--blue);
 }
 
 .login-form *::placeholder{
-    color:rgba(0, 0, 0, 0.4);
+    color: rgba(255, 255, 255, 0.5);
 }
 
+
 .login-form *:focus{
-    border-color: var(--blue);
+    border-color: white;
 }
 
 .login-form__button{
-    background-color: var(--blue);
-    color:white;
+    background-color: white;
+    color:var(--blue);
     border-radius: 5px;
     padding: 13px;
 }
@@ -89,6 +87,6 @@ body{
 .login-form__a{
     text-align: center;
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.5);
     font-size: 13px;
 }

@@ -1,0 +1,13 @@
+.friends-screen{
+    padding: 0px var(--horizontal-space);
+}
+
+.friends-screen__bookmark{
+    margin-top: 25px;
+    border-top: var(--main-border);
+    padding-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.5);
+}
